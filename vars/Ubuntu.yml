@@ -1,0 +1,6 @@
+mysql_repository_key_server: "keyserver.ubuntu.com"
+mysql_repository_key_id: "0xF1656F24C74CD1D8"
+mysql_repository_version: "10.3"
+mysql_repository: "deb [arch=amd64,arm64,ppc64el] http://mirror.timeweb.ru/mariadb/repo/{{mysql_repository_version}}/ubuntu {{ansible_distribution_release}} main"
+mysql_repository_name: mariadb
+mysql_supports_innodb_large_prefix: false
